@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Coding Workshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mini Coding Workshop</h1>
+        <p>Learn • Practice • Improve</p>
+    </header>
+    <section class="learn">
+        <h2>📘 Learn: For Loop in C++</h2>
+        <pre>
+            for(int i = 1; i <= 5; i++) {
+                cout << i;
+            }
+        </pre>
+        <p>This loop prints numbers from 1 to 5.</p>
+    </section>
+    <section class="practice">
+        <h2>💻 Practice</h2>
+        <p>Write a program to print numbers from 1 to 10.</p>
+        <button onclick="showSolution()">Show Solution</button>
+        <pre id="solution" style="display:none;">
+            for(int i = 1; i <= 10; i++) {
+                cout << i;
+            }
+        </pre>
+    </section>
+    <section class="quiz">
+        <h2>QUIZ</h2>
+        <p>What does this loop print?</p>
+        <pre>
+            for(int i = 1; i <= 3; i++) {
+                cout << i;
+            }
+        </pre>
+        <button onclick="checkAnswer(1)">123</button>
+        <button onclick="checkAnswer(2)">321</button>
+        <p id="result"></p>
+    </section>
+    <footer>
+        <p>Created by You!!!</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
